@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class BaseServlet extends HttpServlet {
 
-	protected void service(HttpServletRequest request, HttpServletResponse response)
+	protected void  service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		
 		try {
